@@ -214,58 +214,28 @@
             display: block;
         }
         
-        /* Director Section */
-        .director-section {
+        /* Mission Section */
+        .mission-section {
             background-color: var(--light-gray);
             padding: 4rem 2rem;
             margin: 4rem 0;
         }
         
-        .director-container {
+        .mission-container {
             max-width: 1200px;
             margin: 0 auto;
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            gap: 3rem;
+            text-align: center;
         }
         
-        .director-image {
-            flex: 1;
-            min-width: 300px;
-            display: flex;
-            justify-content: center;
-        }
-        
-        .director-image img {
-            width: 300px;
-            height: 300px;
-            object-fit: cover;
-            border-radius: 50%;
-            border: 5px solid var(--yellow);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        }
-        
-        .director-info {
-            flex: 2;
-            min-width: 300px;
-        }
-        
-        .director-info h3 {
+        .mission-container h3 {
             font-size: 1.8rem;
             color: var(--dark-teal);
-            margin-bottom: 1rem;
+            margin-bottom: 1.5rem;
         }
         
-        .director-title {
-            color: var(--orange);
-            font-weight: 600;
-            margin-bottom: 1.5rem;
-            display: block;
-        }
-        
-        .director-info p {
-            margin-bottom: 1.5rem;
+        .mission-container p {
+            max-width: 800px;
+            margin: 0 auto 2rem;
             line-height: 1.8;
         }
         
@@ -459,13 +429,8 @@
                 font-size: 1rem;
             }
             
-            .about-content, .director-container {
+            .about-content {
                 flex-direction: column;
-            }
-            
-            .director-image img {
-                width: 250px;
-                height: 250px;
             }
         }
         
@@ -544,20 +509,12 @@
         </div>
     </div>
 
-    <!-- Director Section -->
-    <section class="director-section">
-        <div class="director-container">
-            <div class="director-image">
-                <img src="https://i.ibb.co/TMx9c9Y9/Director.png" alt="Vaibhav Kadam, Director">
-            </div>
-            
-            <div class="director-info">
-                <h3>Vaibhav Rameshwar Kadam</h3>
-                <span class="director-title">Founder & Director</span>
-                <p>With over 15 years of experience in agricultural sciences and business management, Vaibhav Kadam has been the driving force behind Crop Connect Agro's success.</p>
-                <p>His vision of <span class="highlight">"Science serving the soil"</span> has led to the development of innovative products like Connect STIC and Root Connect that have transformed farming practices in the region.</p>
-                <p>A proud Maharashtrian, Vaibhav is deeply committed to farmer education and regularly conducts workshops across the state to share knowledge about modern agricultural techniques.</p>
-            </div>
+    <!-- Mission Section -->
+    <section class="mission-section">
+        <div class="mission-container">
+            <h3>Our Mission</h3>
+            <p>At Crop Connect Agro, we are dedicated to revolutionizing agriculture through innovative solutions that increase productivity while maintaining environmental sustainability. We strive to bridge the gap between scientific advancements and practical farming applications.</p>
+            <p>Our team of agricultural experts works tirelessly to develop products that address real challenges faced by farmers in Maharashtra and across India, ensuring food security and economic growth for farming communities.</p>
         </div>
     </section>
 
